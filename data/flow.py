@@ -9,7 +9,7 @@ def json_store():
     date = datetime.date.today()
     op_file = f"{date}.json"
 
-    # ✅ Custom directory paths
+    #  Custom directory paths
     store_logs = Path("/home/l0ki/darkhold/l0ki/dataflow/tdata")
     #st = Path("/home/l0ki/darkhold/dataflow")
     output_path = store_logs / op_file
